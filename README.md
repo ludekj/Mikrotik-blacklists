@@ -3,6 +3,8 @@
 aktuální stav buildu
 [![built blacklist rsc](https://github.com/ludekj/Mikrotik-blacklists/actions/workflows/blacklist.yml/badge.svg)](https://github.com/ludekj/Mikrotik-blacklists/actions/workflows/blacklist.yml)
 
+Update probíhá kždý den v 01:00
+
 # Instalace
 
 1. Přihlásit se to mikrotiku pod minimálně write právy

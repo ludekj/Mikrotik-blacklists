@@ -1,16 +1,17 @@
 import requests
+import os
 
 url = "https://sslbl.abuse.ch/blacklist/sslipblacklist.txt"
 f = (requests.get(url)).text
 
-a = open("blacklist.rsc", "w")
+a = open("blacklist_tmp.rsc", "w")
 
 for line in f.splitlines():
     if not line.startswith('#'):
         a.write(("/ip firewall address-list add address=") +
                 line + (" comment=blacklist list=blacklist\n"))
 
-input_file = "blacklist.rsc"
+input_file = "blacklist_tmp.rsc"
 with open(input_file, "r") as fp:
     lines = fp.readlines()
     new_lines = []
@@ -23,3 +24,6 @@ with open(input_file, "r") as fp:
 output_file = "blacklist.rsc"
 with open(output_file, "w") as fp:
     fp.write("\n".join(new_lines))
+
+os.remove("blacklist_tmp.rsc")
+

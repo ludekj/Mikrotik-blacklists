@@ -1,4 +1,4 @@
-name: Run Script
+name: built blacklist rsc
 
 on:
   schedule:

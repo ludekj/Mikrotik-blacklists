@@ -1,5 +1,5 @@
 /system scheduler
-add interval=30s name=update_blacklist on-event="/tool fetch url=\"https://raw.githubusercontent.com/ludekj/Mikrotik-blacklists/main/blacklist.rsc\" mode=http;\r\
+add interval=1d name=update_blacklist on-event="/tool fetch url=\"https://raw.githubusercontent.com/ludekj/Mikrotik-blacklists/main/blacklist.rsc\" mode=http;\r\
     \n\r\
     \n:log info \"Blacklist downloaded\";\r\
     \n\r\
@@ -17,4 +17,4 @@ add interval=30s name=update_blacklist on-event="/tool fetch url=\"https://raw.g
     \n\r\
     \n/file remove blacklist.rsc\r\
     \n\r\
-    \n:log info \"remove script\"" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-date=sep/08/2021 start-time=23:13:50
+    \n:log info \"remove script\"" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon start-date=sep/08/2021 start-time=00:02:00

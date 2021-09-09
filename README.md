@@ -17,3 +17,8 @@ Update probíhá každý den v 01:00
 ```
 /import file-name=install_blacklist.rsc
 ```
+
+# Zdroje
+
+### Blacklist
+- https://sslbl.abuse.ch/blacklist/sslipblacklist.txt

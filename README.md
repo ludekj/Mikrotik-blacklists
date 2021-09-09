@@ -20,6 +20,12 @@ Update probíhá každý den v 01:00
 ```
 /import file-name=install_blacklist.rsc
 ```
+5. Blokování přes raw FW ( ušetří cca 8% výkonu CPU )
+```
+/ip firewall raw
+add action=drop chain=prerouting src-address-list=blacklist
+```
+
 # Instalace - Aggressive Blacklist
 
 1. Přihlásit se to mikrotiku pod minimálně write právy
@@ -31,6 +37,11 @@ Update probíhá každý den v 01:00
 4. Nainstalovat 
 ```
 /import file-name=install_aggressive.rsc
+```
+5. Blokování přes raw FW ( ušetří cca 8% výkonu CPU )
+```
+/ip firewall raw
+add action=drop chain=prerouting src-address-list=aggressive
 ```
 
 # Zdroje

@@ -2,10 +2,8 @@
 
 aktuální stav 
 
-build Blacklist
 [![built blacklist rsc](https://github.com/ludekj/Mikrotik-blacklists/actions/workflows/blacklist.yml/badge.svg)](https://github.com/ludekj/Mikrotik-blacklists/actions/workflows/blacklist.yml)
 
-build Aggressive
 [![built aggressive rsc](https://github.com/ludekj/Mikrotik-blacklists/actions/workflows/aggressive.yml/badge.svg)](https://github.com/ludekj/Mikrotik-blacklists/actions/workflows/aggressive.yml)
 
 Update probíhá každý den v 01:00

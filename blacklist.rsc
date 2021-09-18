@@ -1,3 +1,6 @@
+/ip firewall address-list add address=45.144.225.194 comment=blacklist list=blacklist
+/ip firewall address-list add address=185.195.79.212 comment=blacklist list=blacklist
+/ip firewall address-list add address=193.187.91.115 comment=blacklist list=blacklist
 /ip firewall address-list add address=185.215.113.62 comment=blacklist list=blacklist
 /ip firewall address-list add address=2.56.59.227 comment=blacklist list=blacklist
 /ip firewall address-list add address=23.227.202.152 comment=blacklist list=blacklist
@@ -88,6 +91,3 @@
 /ip firewall address-list add address=184.90.251.249 comment=blacklist list=blacklist
 /ip firewall address-list add address=13.53.37.168 comment=blacklist list=blacklist
 /ip firewall address-list add address=93.108.180.0 comment=blacklist list=blacklist
-/ip firewall address-list add address=94.60.124.63 comment=blacklist list=blacklist
-/ip firewall address-list add address=5.181.234.150 comment=blacklist list=blacklist
-/ip firewall address-list add address=139.28.218.235 comment=blacklist list=blacklist

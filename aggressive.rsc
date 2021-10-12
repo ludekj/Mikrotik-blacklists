@@ -1,3 +1,5 @@
+/ip firewall address-list add address=104.37.175.107 comment=aggressive list=aggressive
+/ip firewall address-list add address=37.120.222.175 comment=aggressive list=aggressive
 /ip firewall address-list add address=79.134.225.36 comment=aggressive list=aggressive
 /ip firewall address-list add address=185.222.58.151 comment=aggressive list=aggressive
 /ip firewall address-list add address=185.222.58.154 comment=aggressive list=aggressive

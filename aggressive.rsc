@@ -1,3 +1,8 @@
+/ip firewall address-list add address=91.193.75.132 comment=aggressive list=aggressive
+/ip firewall address-list add address=40.88.44.226 comment=aggressive list=aggressive
+/ip firewall address-list add address=213.227.155.219 comment=aggressive list=aggressive
+/ip firewall address-list add address=207.32.218.40 comment=aggressive list=aggressive
+/ip firewall address-list add address=185.163.45.157 comment=aggressive list=aggressive
 /ip firewall address-list add address=185.170.144.51 comment=aggressive list=aggressive
 /ip firewall address-list add address=74.81.52.179 comment=aggressive list=aggressive
 /ip firewall address-list add address=34.121.150.14 comment=aggressive list=aggressive
@@ -6,7 +11,6 @@
 /ip firewall address-list add address=136.144.41.115 comment=aggressive list=aggressive
 /ip firewall address-list add address=23.105.171.80 comment=aggressive list=aggressive
 /ip firewall address-list add address=136.144.41.42 comment=aggressive list=aggressive
-/ip firewall address-list add address=91.193.75.132 comment=aggressive list=aggressive
 /ip firewall address-list add address=202.55.133.118 comment=aggressive list=aggressive
 /ip firewall address-list add address=178.20.226.121 comment=aggressive list=aggressive
 /ip firewall address-list add address=91.92.109.70 comment=aggressive list=aggressive
@@ -7418,8 +7422,3 @@
 /ip firewall address-list add address=162.213.24.51 comment=aggressive list=aggressive
 /ip firewall address-list add address=91.217.85.16 comment=aggressive list=aggressive
 /ip firewall address-list add address=5.39.222.254 comment=aggressive list=aggressive
-/ip firewall address-list add address=5.39.222.132 comment=aggressive list=aggressive
-/ip firewall address-list add address=162.243.131.29 comment=aggressive list=aggressive
-/ip firewall address-list add address=95.181.178.177 comment=aggressive list=aggressive
-/ip firewall address-list add address=89.209.77.82 comment=aggressive list=aggressive
-/ip firewall address-list add address=62.76.190.11 comment=aggressive list=aggressive

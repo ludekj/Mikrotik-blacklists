@@ -1,3 +1,6 @@
+/ip firewall address-list add address=34.68.50.44 comment=aggressive list=aggressive
+/ip firewall address-list add address=191.91.177.6 comment=aggressive list=aggressive
+/ip firewall address-list add address=41.36.83.211 comment=aggressive list=aggressive
 /ip firewall address-list add address=89.248.173.187 comment=aggressive list=aggressive
 /ip firewall address-list add address=212.192.246.217 comment=aggressive list=aggressive
 /ip firewall address-list add address=91.193.75.132 comment=aggressive list=aggressive
@@ -7416,8 +7419,3 @@
 /ip firewall address-list add address=198.61.231.19 comment=aggressive list=aggressive
 /ip firewall address-list add address=185.14.28.188 comment=aggressive list=aggressive
 /ip firewall address-list add address=188.241.116.45 comment=aggressive list=aggressive
-/ip firewall address-list add address=54.198.19.105 comment=aggressive list=aggressive
-/ip firewall address-list add address=192.210.16.230 comment=aggressive list=aggressive
-/ip firewall address-list add address=194.47.151.100 comment=aggressive list=aggressive
-/ip firewall address-list add address=37.123.99.15 comment=aggressive list=aggressive
-/ip firewall address-list add address=37.123.102.15 comment=aggressive list=aggressive
